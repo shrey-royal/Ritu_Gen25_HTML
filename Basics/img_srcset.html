@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Tag 2</title>
+</head>
+<body>
+    <!-- <img src="https://source.unsplash.com/random/500x300?dark, minimal" alt="Image failed to load"> -->
+
+    <img src="../assets/image/img_original.jpg" alt="responsive Image" 
+            srcset="../assets/image/img_small.jpg 200w, 
+                ../assets/image/img_medium.jpg 500w,
+                ../assets/image/img_large.jpg 1000w,
+                ../assets/image/img_original.jpg 1920w"
+                       
+            sizes="(max-width: 200px) 200px,
+                (max-width: 500px) 500px,
+                (max-width: 1000px) 1000px,
+                1920px"/>
+</body>
+</html>
+
+<!-- 
+
+<img src="../assets/image/img_original.jpg" alt="responsive Image" 
+        srcset="../assets/image/img_small.jpg 200w, 
+                ../assets/image/img_medium.jpg 500w,
+                ../assets/image/img_large.jpg 1000w,
+                ../assets/image/img_original.jpg 1920w"
+                
+        sizes="(max-width: 200px) 200px,
+               (max-width: 500px) 500px,
+               (max-width: 1000px) 1000px,
+                1920px"/>
+
+
+ -->
